@@ -1,8 +1,17 @@
-## Admin Page
-![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/664e020e-5af6-405d-901b-1086f0aedd65)
-
 ## Main Page
-![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/30d614f1-60cc-437a-860c-d8471f013d09)
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/bdfa0a91-8d49-4dc7-b984-6050e1711c86)
+
+## Admin Page 1
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/b51239e8-aa2c-487f-aa37-d0d2f2188fef)
+
+## Admin Page 2
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/d4eeecc6-1238-4d42-a642-088f234afcdd)
+
+## Admin Page 3
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/30e81ac7-5a51-4b6f-8fe9-d5eba4615728)
 
 ## Reset Password Page
-![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/264d772a-ba33-4d70-8b92-cf9ba017aada)
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/28119633-4f8a-4818-95e6-b62317fd40fb)
+
+## Message session
+![imagen](https://github.com/MBlml/Semaforo-Inteligente/assets/101375005/15894468-aec6-4984-b0e0-e48974136c80)
