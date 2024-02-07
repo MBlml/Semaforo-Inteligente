@@ -29,9 +29,14 @@
     </div>
 
     <div id="messageContainer" style="display: none;">
+        <button class="return-button" onclick="hideMessage()">
+            <img src="static\images\cerrar.png" alt="cerrar" class="close-message-img">
+        </button>
         <h2 id="messageTitle"></h2>
         <p id="messageContent"></p>
-        <button onclick="hideMessage()">Cerrar</button>
+        <div id="messageButtons">
+            <!-- Los botones se agregarán dinámicamente aquí -->
+        </div>
     </div>
 
     <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
