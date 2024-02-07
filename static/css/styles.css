@@ -3,6 +3,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.show-password, .hide-password {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Ajusta la posición verticalmente */
+    right: 15px; /* Ajusta la posición horizontalmente */
+    transform: translateY(-50%);
+    z-index: 1;
+    height: 25px;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+}
+
 body {
     display: grid;
     place-items: center;
@@ -11,8 +27,7 @@ body {
     background-image: url("/static/images/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    animation:
-        pan 6s infinite alternate linear;
+    animation: pan 6s infinite alternate linear;
 }
 
 .login-card {
@@ -29,7 +44,7 @@ html, body {
 
 button {
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     height: 56px;
     border: 0;
     background: #216ce7;
@@ -76,15 +91,14 @@ button {
     color: #216ce7; 
 }
 
-.login-form > input,
-.login-form > button {
+.login-form > button, input {
     width: 100%;
     height: 56px;
     padding: 0 16px;
     border-radius: 8px;
 }
 
-.login-form > input {
+input {
     border: 2px solid #ebebeb;
 }
 
@@ -93,6 +107,14 @@ button {
     height: 56px;
     border: 0;
     background: #216ce7;
+    color: #f9f9f9;
+    font-weight: 600;
+}
+
+.login-form > button:hover, #loginMessage button:hover{
+    height: 56px;
+    border: 0;
+    background: #0f58cc;
     color: #f9f9f9;
     font-weight: 600;
 }
@@ -127,6 +149,7 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 2;
 }
 
 .logo {
