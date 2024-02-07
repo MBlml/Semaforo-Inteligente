@@ -43,7 +43,7 @@ body {
     cursor: pointer;
     background-color: red;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 30px;
     width: 100%;
     padding: 10px;
@@ -55,7 +55,7 @@ body {
     cursor: pointer;
     background-color: rgb(164, 0, 0);
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 30px;
     width: 100%;
     padding: 10px;
@@ -73,7 +73,7 @@ body {
 .menu-buttons button {
     background-color: #216ce7;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 30px;
     width: 100%;
     padding: 10px;
@@ -84,7 +84,7 @@ body {
 .menu-buttons button:hover {
     background-color: #0f58cc;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 30px;
     width: 100%;
     padding: 10px;
@@ -132,7 +132,7 @@ body {
 .button-message{
     background-color: #216ce7;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 22px;
     padding: 15px;
     color: white;
@@ -142,7 +142,7 @@ body {
 .button-message:hover {
     background-color: #0f58cc;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 22px;
     padding: 15px;
     color: white;

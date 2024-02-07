@@ -13,10 +13,11 @@
                 <input type="text" id="codeInput" placeholder="Codigo de usuario"/>
                 <div class="password-container">
                     <input type="password" id="passwordInput" placeholder="Contraseña"/>
-                    <img src="static\images\mostrarContrasena.png" alt="Mostrar contraseña" class="show-password" id="showPassword" onclick="togglePasswordVisibility()">
-                    <img src="static\images\ocultarContrasena.png" alt="Ocultar contraseña" class="hide-password" id="hidePassword" onclick="togglePasswordVisibility()" style="display: none;">
+                    <img src="static\images\ocultarContrasena.png" alt="Mostrar contraseña" class="show-password" id="showPassword" onclick="togglePasswordVisibility()">
+                    <img src="static\images\mostrarContrasena.png" alt="Ocultar contraseña" class="hide-password" id="hidePassword" onclick="togglePasswordVisibility()" style="display: none;">
                 </div>
                 <a href="{{ url_for('reset_password') }}"> Recuperar contraseña </a>
+                <a href="{{ url_for('admin') }}"> Modo admin </a>
                 <button id="loginButton">Ingresar</button>
             </form> 
         </div>      

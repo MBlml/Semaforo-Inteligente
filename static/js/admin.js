@@ -45,3 +45,4 @@ function showMessage(option) {
 function hideMessage() {
     document.getElementById("messageContainer").style.display = "none";
 }
+
