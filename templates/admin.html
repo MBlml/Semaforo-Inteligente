@@ -1,21 +1,39 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
-        <title>Modo Admin</title>
-        <link rel="icon" type="image/png" href="static\images\udg_logo.png">
-    </head>
-    <body>
-        <div class="menu-container">
-            <div class = "menu-header">
-                <img src="static\images\udg_logo.png" alt="udg_logo" class="logo">
-                <h1>Modo Admin</h1>
-            </div>
-            <div class="menu-buttons">
-                <button>Usuarios</button>
-                <button>Monitoreo</button>
-                <button>Recursos</button>
-                <button>Configuración</button>
-            </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+    <link rel="icon" type="image/png" href="static\images\udg_logo.png">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-header">
+            <img src="static\images\udg_logo.png" alt="udg_logo" class="logo">
+            <h1>Modo Admin</h1>
         </div>
-    </body>
+        <div class="menu-buttons">
+            <button onclick="showMessage('usuarios')">Usuarios</button>
+            <button onclick="showMessage('monitoreo')">Monitoreo</button>
+            <button onclick="showMessage('recursos')">Recursos</button>
+            <button onclick="showMessage('configuracion')">Configuración</button>
+        </div>
+    </div>
+
+    <div class="main-page-container">
+        <div class="info">
+            <h1>Bienvenido a la pagina de administrador</h1>
+            <h3>Experimenta las funcionalidades</h3>
+        </div>
+    </div>
+
+    <div id="messageContainer" style="display: none;">
+        <h2 id="messageTitle"></h2>
+        <p id="messageContent"></p>
+        <button onclick="hideMessage()">Cerrar</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+</body>
 </html>

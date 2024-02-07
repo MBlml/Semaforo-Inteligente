@@ -67,3 +67,40 @@ body {
     color: white;
     margin: 5px;
 }
+
+.main-page-container {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    position: absolute;
+    padding-left: 30px;
+    left: 256px;
+    top: 0px;
+    height: 100%;
+    width: 81.3%;
+}
+
+#messageContainer {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 256px;
+    background-color: #001220;
+    padding: 20px;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#messageTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#messageContent {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
