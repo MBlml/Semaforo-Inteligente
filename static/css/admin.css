@@ -39,6 +39,30 @@ body {
     margin: 10px 0 10px 0;
 }
 
+.cerrar-sesion {
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-top: 115px;
+}
+
+.cerrar-sesion:hover {
+    cursor: pointer;
+    background-color: rgb(164, 0, 0);
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-top: 115px;
+}
+
 .menu-buttons {
     display: flex;
     align-items: center;
@@ -138,3 +162,4 @@ body {
 .close-message-img {
     height: 30px;
 }
+
